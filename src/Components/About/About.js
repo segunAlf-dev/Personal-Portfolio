@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import './About.css';
+import AboutImg from '../images/segun.jpg';
 
 
 
@@ -17,19 +18,39 @@ const Item = styled(Paper)(({ theme }) => ({
 
 function FormRow() {
   return (
-    <React.Fragment >
+    <React.Fragment>
       <Grid item xs={-1}>
-      <Item>
-            <img src= 'https://avatars.githubusercontent.com/u/102680772?v=4 ' alt="Profile" id='Profile_img' width='600px' />
-          </Item>
+        <Item>
+          <img
+            src={AboutImg}
+            alt="Profile"
+            id="Profile_img"
+            width="600px"
+          />
+        </Item>
       </Grid>
       <Grid item xs={6}>
-      <Item id='About-Fontcolor'>
-        
-            <h1 id='About_header'>A Little About Me...</h1>
-            <p id='About_text'>I'm a budding Software Engineer, with deep interests in frontend engineering and cloud engineering who is currently also enrolled in a software engineering school at AltSchool Africa. I'm passionate about sharing knowledge, documentation, web engineering, cloud engineering, and others.</p> <p id='About_text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>         
-          
-          </Item>
+        <Item id="About-Fontcolor">
+          <h1 id="About_header">A Little About Me...</h1>
+          <p id="About_text">
+            I'm a budding Software Engineer, with deep interests in frontend
+            engineering and cloud engineering who is currently also enrolled in
+            a software engineering school at AltSchool Africa. I'm passionate
+            about sharing knowledge, documentation, web engineering, cloud
+            engineering, and others.
+          </p>{" "}
+          <p id="About_text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </Item>
       </Grid>
     </React.Fragment>
   );
