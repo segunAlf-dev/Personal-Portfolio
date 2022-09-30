@@ -3,6 +3,7 @@ import React from 'react';
 import ResponsiveAppBar from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
+import SkillSet from './SkillSet';
 // import Blog from './Components/Blog/Blog';
 // import Contact from './Components/Contact/ContactMe';
 // import {Routes, Route} from 'react-router-dom';
@@ -19,8 +20,8 @@ function App() {
       <ResponsiveAppBar />
       <Home />
       <About />
-
       <Projects />
+      <SkillSet />
 
 
 
