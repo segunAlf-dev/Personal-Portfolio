@@ -10,7 +10,7 @@ import project6 from '../images/FourcardComp.png';
 const Project = () => {
   return (
     <div  name="project" className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
-        <div id='box' className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-2 mt-16'>
                 <div className='sm:text-center text-left mt-5 mb-5 '>
                   <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 pt-2' >
