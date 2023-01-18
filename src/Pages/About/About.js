@@ -4,8 +4,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import './About.css';
-import AboutImg from '../images/segun.jpg';
-
+import AboutImg from "../../Assets/images/segun.jpg";
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -25,7 +24,7 @@ function FormRow() {
             src={AboutImg}
             alt="Profile"
             id="Profile_img"
-            width="600px"
+            width="400px"
           />
         </Item>
       </Grid>
@@ -39,7 +38,7 @@ function FormRow() {
             about sharing knowledge, documentation, web engineering, cloud
             engineering, and others.
           </p>{" "}
-          <p id="About_text">
+          {/* <p id="About_text">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -49,7 +48,7 @@ function FormRow() {
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
-          </p>
+          </p> */}
         </Item>
       </Grid>
     </React.Fragment>

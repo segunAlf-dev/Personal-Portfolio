@@ -1,10 +1,10 @@
 import React from 'react'
-import project1 from '../images/Phonie-Hackth.png';
-import project2 from '../images/Readact.png';
-import project3 from '../images/nft-preview-card.png';
-import project4 from '../images/LandingPage.png';
-import project5 from '../images/Calculator.png';
-import project6 from '../images/FourcardComp.png';
+import project1 from "../../Assets/images/Phonie-Hackth.png";
+import project2 from "../../Assets/images/Readact.png";
+import project3 from "../../Assets/images/nft-preview-card.png";
+import project4 from "../../Assets/images/LandingPage.png";
+import project5 from "../../Assets/images/Calculator.png";
+import project6 from "../../Assets/images/FourcardComp.png";
 
 
 const Project = () => {
@@ -13,7 +13,7 @@ const Project = () => {
         <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-2 mt-16'>
                 <div className='sm:text-center text-left mt-5 mb-5 '>
-                  <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 pt-2' >
+                  <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-blue-600 pt-2' >
                   Projects
                   </p>
                 </div>

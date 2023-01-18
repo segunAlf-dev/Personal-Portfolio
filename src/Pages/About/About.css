@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Mouse+Memoirs&family=Outfit:wght@300;400;600&family=Patrick+Hand&family=Poppins:wght@400;500;700&family=Roboto:wght@300;400&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 
 .About_Box {
     /* height: 45rem; */
@@ -9,16 +12,17 @@
     /* font-family: 'Poppins', sans-serif; */
     margin-top: auto;
     
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
 }
 #About_header {
     font-size: 2rem;
     font-weight: 400;
     text-align: center;
-    color: #327be9;
+    color:white;
     margin-top: 2rem;
     font-family: 'Roboto', sans-serif;
+    border-bottom: white 1px solid;
 }
 
 #About_text {
